@@ -1,0 +1,51 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "By: LukeZer0#1699",
+        "name": "Custom BP",
+        "uuid": "9e63ec2a-f81d-11ed-b67e-0242ac120002",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            19,
+            63
+        ]
+    },
+    "modules": [
+        {
+            "description": "Custom BP",
+            "type": "data",
+            "uuid": "5b29deea-f78e-11ed-b67e-0242ac120002",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "60e1503e-f78e-11ed-b67e-0242ac120002",
+            "version": [
+                0,
+                0,
+                1
+            ],
+            "entry": "scripts/main.js"
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.2.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.0.0-beta"
+        }
+    ]
+}
