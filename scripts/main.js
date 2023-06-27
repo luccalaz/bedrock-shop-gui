@@ -12,10 +12,6 @@ world.events.entityHit.subscribe(data => {
     }
 })
 
-world.beforeEvents.chatSend.subscribe(data => {
-    console.warn('wow this is amazing!')
-})
-
 export function numberWithCommas(x) {
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
