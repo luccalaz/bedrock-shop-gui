@@ -3,5 +3,7 @@ This is a modular shop system for Minecraft Bedrock Edition that lets you set up
 - This shop GUI will open when an NPC with the tag specified in the config file is hit by a player.
 - The player can then browse through the categories and items. You can even set structures to sell items with enchantments, lore or other specific parameters.
 
+![Project Image](/assets/image.png)
+
 If you have questions or need help with anything, contact me on discord: LukeZer0#1699
 ~ Enjoy!
